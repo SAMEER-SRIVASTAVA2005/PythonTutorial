@@ -1,0 +1,59 @@
+# Recursion in python------Recursion is the process of defining something in terms of itself.
+
+# Python Recursive Function
+# In Python, we know that a function can call other functions. It is even possible for the function to call itself. These types of construct are termed as recursive functions.
+
+def factorial(n):
+    if(n==0 or n==1):
+        return 1
+    else:
+        return n * factorial(n-1)
+
+print(factorial(5))
+# it goes like 
+# 5 * factorial(4)
+# 5 * 4 * factorial(3)
+# 5 * 4 * 3 * factorial(2)
+# 5 * 4 * 3 * 2 * factorial(1)
+# 5 * 4 * 3 * 2 * 1
+
+print(factorial(7))
+print(factorial(9))
+ 
+# FIBONACCI Sequence
+
+# f(0) = 0
+# f(1) = 1
+# f(2) = f(1) + f(0)
+# f(n) = f(n-1) + f(n-2)
+
+# series 
+# 0 1 1 2 3 5 8...........
+
+# program to print the fibonacci sequence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
